@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0AfterALV", "0AfterALV.csproj", "{615802A0-79EE-4C15-84A0-2DF38C804CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DullForm", "..\dulllib\DullForm\DullForm.csproj", "{032C77B1-469A-4549-9773-D0D3347BE785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DullPlot", "..\dulllib\DullPlot\DullPlot.csproj", "{5A0315FB-9F69-4AA9-9E34-CF3960497F66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worksheet", "..\dulllib\Worksheet\Worksheet.csproj", "{34F49779-3EAE-4C59-97CB-6C857195A158}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{615802A0-79EE-4C15-84A0-2DF38C804CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615802A0-79EE-4C15-84A0-2DF38C804CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615802A0-79EE-4C15-84A0-2DF38C804CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{615802A0-79EE-4C15-84A0-2DF38C804CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F49779-3EAE-4C59-97CB-6C857195A158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F49779-3EAE-4C59-97CB-6C857195A158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F49779-3EAE-4C59-97CB-6C857195A158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F49779-3EAE-4C59-97CB-6C857195A158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0315FB-9F69-4AA9-9E34-CF3960497F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0315FB-9F69-4AA9-9E34-CF3960497F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0315FB-9F69-4AA9-9E34-CF3960497F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0315FB-9F69-4AA9-9E34-CF3960497F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032C77B1-469A-4549-9773-D0D3347BE785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032C77B1-469A-4549-9773-D0D3347BE785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032C77B1-469A-4549-9773-D0D3347BE785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{032C77B1-469A-4549-9773-D0D3347BE785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

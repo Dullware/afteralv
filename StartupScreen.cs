@@ -81,7 +81,7 @@ public class StartupScreen : System.Windows.Forms.Form
         udp udp = null;
         bool passed = false;
         bool ready = false;
-        string[] hosts = { "82.95.178.145", "137.224.24.211" };
+        string[] hosts = { "xx.xx.xxx.xxx", "xxx.xxx.xx.xxx" };
         foreach (string host in hosts)
         {
             if (udp != null) udp.Close();
@@ -105,7 +105,7 @@ public class StartupScreen : System.Windows.Forms.Form
             if (ready) break;
         }
 
-        if (result.Text == "Please wait...") SetResultText("Failed (no server found).\r\nBe sure to let your firewall allow us to connect to \r\n82.95.178.145 using UDP port 7040.");
+        if (result.Text == "Please wait...") SetResultText("Failed (no server found).\r\nBe sure to let your firewall allow us to connect to \r\nxx.xx.xxx.xxx using UDP port 7040.");
         SetOKButton(passed);
     }
 
@@ -195,7 +195,7 @@ public class StartupScreen : System.Windows.Forms.Form
     {
     	try
     	{
-        	if (!btOK.Enabled) System.Diagnostics.Process.Start("http://albus.fenk.wur.nl/~dullware");		
+        	if (!btOK.Enabled) System.Diagnostics.Process.Start("https://github.com/Dullware");		
     	}
     	catch{}
     }

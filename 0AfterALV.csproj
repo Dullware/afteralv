@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{615802A0-79EE-4C15-84A0-2DF38C804CF0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AfterALV</RootNamespace>
+    <AssemblyName>AfterALV</AssemblyName>
+    <StartupObject>AfterALV</StartupObject>
+    <ApplicationIcon>AfterALV.ico</ApplicationIcon>
+    <SourceAnalysisOverrideSettingsFile>C:\Users\Petwen\AppData\Roaming\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <TargetFrameworkProfile />
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <PlatformTarget>x86</PlatformTarget>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Compile Include="AfterALV.cs">
+      <Link>AfterALV.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AngleTabPage.cs">
+      <Link>AngleTabPage.cs</Link>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ContinInput.cs">
+      <Link>ContinInput.cs</Link>
+    </Compile>
+    <Compile Include="ContinInterface.cs">
+      <Link>ContinInterface.cs</Link>
+    </Compile>
+    <Compile Include="ContinInterface100.cs">
+      <Link>ContinInterface100.cs</Link>
+    </Compile>
+    <Compile Include="ContinOutput.cs">
+      <Link>ContinOutput.cs</Link>
+    </Compile>
+    <Compile Include="ContinPeak.cs">
+      <Link>ContinPeak.cs</Link>
+    </Compile>
+    <Compile Include="DataFile.cs">
+      <Link>DataFile.cs</Link>
+    </Compile>
+    <Compile Include="LagData.cs">
+      <Link>LagData.cs</Link>
+    </Compile>
+    <Compile Include="Preferences.cs">
+      <Link>Preferences.cs</Link>
+    </Compile>
+    <Compile Include="StartupScreen.cs">
+      <Link>StartupScreen.cs</Link>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StatData.cs">
+      <Link>StatData.cs</Link>
+    </Compile>
+    <Compile Include="udp.cs">
+      <Link>udp.cs</Link>
+    </Compile>
+    <Compile Include="win32api.cs">
+      <Link>win32api.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AfterALV Project File.ico">
+      <Link>AfterALV Project File.ico</Link>
+    </Content>
+    <EmbeddedResource Include="AfterALV.ico">
+      <Link>AfterALV.ico</Link>
+    </EmbeddedResource>
+    <Content Include="Contin.exe">
+      <Link>Contin.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Continpk.exe">
+      <Link>Continpk.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="delete_x_16.bmp">
+      <Link>delete_x_16.bmp</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoveToFolder.bmp">
+      <Link>MoveToFolder.bmp</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="move_to_folder_16.bmp">
+      <Link>move_to_folder_16.bmp</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new_document_16.bmp">
+      <Link>new_document_16.bmp</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="open_document_16.bmp">
+      <Link>open_document_16.bmp</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="save_16.bmp">
+      <Link>save_16.bmp</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CarlosAg.ExcelXmlWriter">
+      <HintPath>..\dulllib\CarlosAg.ExcelXmlWriter\CarlosAg.ExcelXmlWriter.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dulllib\DullForm\DullForm.csproj">
+      <Project>{032C77B1-469A-4549-9773-D0D3347BE785}</Project>
+      <Name>DullForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dulllib\DullPlot\DullPlot.csproj">
+      <Project>{5A0315FB-9F69-4AA9-9E34-CF3960497F66}</Project>
+      <Name>DullPlot</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dulllib\Worksheet\Worksheet.csproj">
+      <Project>{34F49779-3EAE-4C59-97CB-6C857195A158}</Project>
+      <Name>Worksheet</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

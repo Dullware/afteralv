@@ -13,3 +13,17 @@ System Requirements
     Microsoft Windows 98 or better
     Microsoft .NET Framework Redistributable 2.0
 
+
+
+
+External EXE's
+==============
+
+Contin and Continpk are NOT part of Dullware and are software by S.W. Provencher (http://s-provencher.com/pages/contin.shtml)
+
+
+External DLL's
+==============
+
+CarlosAg Excel Xml Writer Library is NOT part of Dullware and is software by Carlos Aguilar Mares (http://www.carlosag.net/tools/excelxmlwriter/)
+
