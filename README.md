@@ -1,8 +1,13 @@
 AfterALV
+========
 
 AfterALV is used to analyse dynamic light scattering results (photon spectroscopy). It is designed after the pksplot package by Stefan Stechemesser. Like pksplot, it uses the Contin program by Stephan Provencher.
 
  
+Version 1.0f
+
+The 1.0f does no longer 'phone home'.
+
 Version 1.0d
 
 The 1.0d solves some problems reading ALV data files.
