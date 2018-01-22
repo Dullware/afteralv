@@ -6,7 +6,7 @@ AfterALV is used to analyse dynamic light scattering results (photon spectroscop
  
 Version 1.0e
 
-The 1.0f does no longer 'phone home'.
+The 1.0e does no longer 'phone home'.
 
 Version 1.0d
 
