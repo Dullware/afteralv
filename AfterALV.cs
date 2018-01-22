@@ -7,7 +7,7 @@ using Dullware.Plotter;
 using CarlosAg.ExcelXmlWriter;
 
 [assembly: System.Reflection.AssemblyProduct("AfterALV")]
-[assembly: System.Reflection.AssemblyDescription("AfterALV 1.0f")]
+[assembly: System.Reflection.AssemblyDescription("AfterALV 1.0e")]
 [assembly: System.Reflection.AssemblyTitle("AfterALV by Dullware")]
 [assembly: System.Reflection.AssemblyCompany("Dullware")]
 [assembly: System.Reflection.AssemblyCopyright("(c) 2006 - 2015 Dullware")]
